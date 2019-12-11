@@ -8,7 +8,7 @@ ser.open()
 # for i in range (100):
 #     val =  ser.readline().decode("utf-8")
 # print(val)
-with open("output.csv", "a") as fp:
+with open("output1.csv", "a") as fp:
     wr = csv.writer(fp, dialect='excel')
     while(True):
         val =  ser.readline().decode("utf-8").split(',')
